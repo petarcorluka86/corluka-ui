@@ -1,0 +1,44 @@
+{
+  "name": "corluka-ui",
+  "version": "1.0.0",
+  "description": "Personal UI package created by Petar Corluka.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petarcorluka86/corluka-ui.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/types",
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "/dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "UI",
+    "ui-kit",
+    "react"
+  ],
+  "author": "Petar Corluka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petarcorluka86/corluka-ui/issues"
+  },
+  "homepage": "https://github.com/petarcorluka86/corluka-ui#readme",
+  "dependencies": {
+    "framer-motion": "^10.8.5",
+    "lodash.debounce": "^4.0.8",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.9"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.26"
+  }
+}
